@@ -12,7 +12,7 @@ main() {
 
   const myList = [12, 13, 14, 15];
   print(myList);
-  //myList.add(16); ///doesnot work
+  //myList.add(16); ///doesn't work
 
   students.add('Rassel');
   print(students);
