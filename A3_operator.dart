@@ -57,6 +57,4 @@ main() {
 
   ///can be initialised later
   print(age);
-
-  ///updated...
 }
