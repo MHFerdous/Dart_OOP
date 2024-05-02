@@ -7,11 +7,9 @@ main() {
 
   List<String> students = ['Ferdous', 'Hasan'];
   for (int i = 0; i < students.length; i++) {
-    print('Flutter developer ${students[i]} ' + students[i]);
+    print('Flutter developer ${students[i]}');
   }
   for (String studentsName in students) {
     print(studentsName);
   }
-
-  ///while loop
 }

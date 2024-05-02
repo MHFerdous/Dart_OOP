@@ -1,20 +1,19 @@
 main() {
-  List<String> students = ['Ferdous', 'Hasan', 'Talha'];
+  List<String> students = ['a', 'b', 'c'];
 
-  print(students.length);
-  print(students.first);
-  print(students.last);
-  print(students.isEmpty);
-  print(students.isNotEmpty);
-  print(students.reversed);
+  print('Length: ${students.length}');
+  print('First: ${students.first}');
+  print('Last: ${students.last}');
+  print('Is empty: ${students.isEmpty}');
+  print('Is not empty: ${students.isNotEmpty}');
+  print('Reversed: ${students.reversed}');
   //print(students.single);
-  print(students[1]);
+  print('Index 1: ${students[1]}');
 
   const myList = [12, 13, 14, 15];
   print(myList);
-  //myList.add(16); ///doesn't work
 
-  students.add('Rassel');
+  students.add('d');
   print(students);
   students.addAll([
     'abc',
@@ -23,12 +22,12 @@ main() {
   ]);
   print(students);
 
-  students.insert(0, 'sagor');
+  students.insert(0, '0');
   print(students);
-  students.insertAll(1, ['kammo', 'rony']);
+  students.insertAll(1, ['11', '12']);
   print(students);
 
-  students[1] = 'kammo';
+  students[1] = '0';
   print(students);
 
   students.removeLast();

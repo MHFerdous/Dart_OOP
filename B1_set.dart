@@ -1,5 +1,5 @@
 main() {
-  Set<String> students = {'Ferdous', 'Hasan', 'Juned', 'juned'};
+  Set<String> students = {'Ferdous', 'Hasan', 'Juned', 'Juned'};
   print(students);
 
   students.add('Talha');

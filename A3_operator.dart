@@ -47,7 +47,7 @@ main() {
   print(x > y && x < z);
   print(x > y || x < z);
 
-  const String passportNumber = '564sgf564';
+  const passportNumber = '564sgf564';
 
   ///giving datatype is optional in const, have to initialised instantly
   print(passportNumber);

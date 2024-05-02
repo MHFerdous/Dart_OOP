@@ -1,10 +1,10 @@
 main() {
-  boss hasan = boss();
-  hasan.name = 'Hasan ahmed';
-  hasan.id = 30;
-  print(hasan.name);
-  print(hasan.id);
-  hasan.theBoss();
+  boss rock = boss();
+  rock.name = 'Rock';
+  rock.id = 30;
+  print(rock.name);
+  print(rock.id);
+  rock.theBoss();
   print(boss.num);
   boss.global();
 }

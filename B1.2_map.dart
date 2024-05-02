@@ -1,17 +1,19 @@
 main() {
-  Map<String, String> user = {
+  Map<String, dynamic> user = {
     'First Name': 'MH',
-    'Last  Nmae': 'Ferdous',
-    'age': '22'
+    'Last  Name': 'Ferdous',
+    'age': 23,
+    'Number': 01234567899,
   };
-  print(user);
-  print(user['First Name']);
 
-  Map<int, String> students = {1: 'Kamran', 3: 'Ferdous', 7: 'Ankon'};
+  print('User: ${user}');
+  print('First name: ${user['First Name']}');
+
+  Map<int, String> students = {1: 'Kamran', 3: 'Ferdous', 8: 'Ankon'};
   print(students[3]);
   students[30] = 'Hasan';
-  print(students);
-  print(students.keys);
-  print(students.length);
-  print(students.values);
+  print('Value: ${students}');
+  print('Keys: ${students.keys}');
+  print('Length: ${students.length}');
+  print('Values: ${students.values}');
 }

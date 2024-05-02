@@ -1,8 +1,8 @@
 main() {
-  String myAge = '22';
+  String myAge = '23';
   int j = int.parse(myAge);
-  j += 1;
   print(j);
+
   myAge = j.toString();
   double u = double.parse(myAge);
   print(u);
