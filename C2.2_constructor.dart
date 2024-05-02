@@ -1,5 +1,5 @@
 main() {
-  boss hasan = boss();
+  boss();
 }
 
 class boss {
